@@ -3,7 +3,7 @@ from flask_pymongo import PyMongo, ObjectId
 from flask_cors import CORS
 
 app = Flask(__name__)
-app.config['MONGO_URI'] = 'mongodb://localhost:27017/CrudApp'
+app.config['MONGO_URI'] = 'mongodb+srv://Umidjon:Umidjon2005@cluster0.l13qequ.mongodb.net/umidjon-python'
 mongo = PyMongo(app)
 CORS(app)
 
